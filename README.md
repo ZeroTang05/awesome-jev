@@ -67,7 +67,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Scoring & Ranking](categories/scoring-ranking.md) — 44 entries
 - [Agent Decisions](categories/agent-decisions.md) — 66 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 11 entries
-- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 47 entries
+- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 49 entries
 - [Calibration & Research](categories/calibration-research.md) — 55 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 123 entries
 - [Game & Simulation](categories/game-simulation.md) — 28 entries
@@ -469,6 +469,8 @@ Source file: [`categories/evaluation-benchmarking.md`](categories/evaluation-ben
 - [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) ![stars](https://img.shields.io/github/stars/raxITlabs/decision-models-as-guardrails?style=flat-square&label=%E2%98%85) - Guardrail benchmark: asks whether a decision model can replace a managed guardrail service, sending the same labelled rows to Jev, Kev, Open-Jev, Laya, Clef and Strands Decider, to the Perplexity and OpenAI Decisions APIs, and to Bedrock Guardrails, then comparing accuracy against cost.
 - [Bot Derby](https://github.com/Day-in-the-Country-LLC/bot-derby) ![stars](https://img.shields.io/github/stars/Day-in-the-Country-LLC/bot-derby?style=flat-square&label=%E2%98%85) - Head to head: Ferdi is TypeSafe Jev and Bodi is OpenAI Decisions, each starting season two with $50,000 of simulated cash in a stocks-only paper-trading experiment, with a public scoreboard tracking who is ahead.
 - [s1kit](https://github.com/Eliot5566/s1kit) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Eliot5566/s1kit?style=flat-square&label=%E2%98%85) - Model evaluation: runs one YAML suite of labelled `Choice`, `Score` and `Noul` cases against Jev and other `/v1/systemone` servers side by side, fits the lowest confidence cutoff per question that reaches a target precision, routes answers below it to the next model, and fails CI through a GitHub Action when accuracy drops.
+- [Jev bias audit](https://github.com/isaacbitran/jev-bias-audit) ![stars](https://img.shields.io/github/stars/isaacbitran/jev-bias-audit?style=flat-square&label=%E2%98%85) - Counterfactual audit: 134,772 answers to prompt pairs that differ only in one identity sentence, across jev-1.13.0 and 1.14.0, finding that an identity label moves predictions 3 to 15 percentage points while an associated name moves them by fractions of a point.
+- [Jev calibration audit](https://github.com/n9omi/jev-calibration-audit) ![stars](https://img.shields.io/github/stars/n9omi/jev-calibration-audit?style=flat-square&label=%E2%98%85) - Calibration test: checks Jev's probabilities against U.S. petroleum inventory reports, where the right answer can be computed exactly from EIA data, comparing it word for word with an LLM classifier through LangChain.
 
 ### Calibration & Research
 
