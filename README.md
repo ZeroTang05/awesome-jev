@@ -67,7 +67,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Scoring & Ranking](categories/scoring-ranking.md) — 44 entries
 - [Agent Decisions](categories/agent-decisions.md) — 66 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 11 entries
-- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 46 entries
+- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 47 entries
 - [Calibration & Research](categories/calibration-research.md) — 55 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 123 entries
 - [Game & Simulation](categories/game-simulation.md) — 28 entries
@@ -468,6 +468,7 @@ Source file: [`categories/evaluation-benchmarking.md`](categories/evaluation-ben
 - [Jev vs Claude Haiku 4.5 as input guardrails](https://github.com/rahulbansalc6414/jev-as-a-guardrail) ![stars](https://img.shields.io/github/stars/rahulbansalc6414/jev-as-a-guardrail?style=flat-square&label=%E2%98%85) - Benchmark: compares the two as input guardrails on detection rate, false positive rate, latency and cost, over a documented prompt mix of 53% attack, 13% evasion and 33% benign, with duplicates removed.
 - [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) ![stars](https://img.shields.io/github/stars/raxITlabs/decision-models-as-guardrails?style=flat-square&label=%E2%98%85) - Guardrail benchmark: asks whether a decision model can replace a managed guardrail service, sending the same labelled rows to Jev, Kev, Open-Jev, Laya, Clef and Strands Decider, to the Perplexity and OpenAI Decisions APIs, and to Bedrock Guardrails, then comparing accuracy against cost.
 - [Bot Derby](https://github.com/Day-in-the-Country-LLC/bot-derby) ![stars](https://img.shields.io/github/stars/Day-in-the-Country-LLC/bot-derby?style=flat-square&label=%E2%98%85) - Head to head: Ferdi is TypeSafe Jev and Bodi is OpenAI Decisions, each starting season two with $50,000 of simulated cash in a stocks-only paper-trading experiment, with a public scoreboard tracking who is ahead.
+- [s1kit](https://github.com/Eliot5566/s1kit) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Eliot5566/s1kit?style=flat-square&label=%E2%98%85) - Model evaluation: runs one YAML suite of labelled `Choice`, `Score` and `Noul` cases against Jev and other `/v1/systemone` servers side by side, fits the lowest confidence cutoff per question that reaches a target precision, routes answers below it to the next model, and fails CI through a GitHub Action when accuracy drops.
 
 ### Calibration & Research
 
